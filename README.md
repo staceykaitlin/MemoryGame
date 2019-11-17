@@ -11,9 +11,10 @@ Flip over two cards at a time to find two cards that match. The deck consists of
 
 The game will end once all cards have been matched.
 
-You can launch the game (https://staceykaitlin.github.io/MemoryGame/ "here.")
+You can launch the game [here.](https://staceykaitlin.github.io/MemoryGame/)
 
 
 ## Contributing
 
-This project was created using the starter code supplied by Udacity. You can find the starter files (https://github.com/udacity/fend-project-memory-game "here.")
+This project was created using the starter code supplied by Udacity. You can find the starter files 
+[here.](https://github.com/udacity/fend-project-memory-game)
