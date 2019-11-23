@@ -97,7 +97,7 @@ function click(card) {
       if(openedCards.length === 1) {
 
         // Shows icon and pushes card to openedCards array
-        card.classList.add('open', 'show', 'disable');
+        card.classList.add('open', 'show');
         openedCards.push(this);
 
         // Compares the cards in the openedCards array
@@ -105,7 +105,7 @@ function click(card) {
 
       } else {
       //No opened cards
-         currentCard.classList.add('open', 'show', 'disable');
+         currentCard.classList.add('open', 'show');
          openedCards.push(this);
       }
 
@@ -166,7 +166,7 @@ function gameOver() {
      allowOutsideClick: false,
      title: 'Congratulations!',
      text: 'You completed the game in ' + moves + ' moves, it took you ' + totalSeconds + ' seconds and your score is ' + msg,
-     confirmButtonColor: '#5e8a77',
+     confirmButtonColor: '#02ccba',
      confirmButtonText: 'Play again'
     }).
 
