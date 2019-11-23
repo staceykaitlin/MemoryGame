@@ -39,8 +39,8 @@ h1 {
  */
 
 .deck {
-    width: 650px;
-    min-height: 650px;
+    width: 660px;
+    min-height: 680px;
     background: #b3b6b9;
     padding: 32px;
     border-radius: 10px;
@@ -74,16 +74,17 @@ h1 {
 
 .deck .card.show {
     font-size: 35px;
+    pointer-events: none;
 }
 
 .deck .card.match {
     cursor: default;
-    background: #5e8a77;
+    background: #02ccba;
     font-size: 35px;
 }
 
 .deck .card.nomatch {
-  background: #e8b761;
+  background: #ff5555;
   font-size: 35px;
 }
 
@@ -97,18 +98,18 @@ h1 {
 
 .score-panel {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   color: #435e52;
-  text-align: left;
-  width: 600px;
-  margin-bottom: 20px;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 10px;
 }
 
 .score-panel .stars {
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin: 0 10px 0 0;
+    margin: 0 5px 0 0;
 }
 
 .score-panel .stars li {
